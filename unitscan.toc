@@ -1,7 +1,7 @@
 ## Interface: 20501
-## Author: shirsig
-## Title: unitscan
+## Author: yurple
+## Title: unitscan-yurplefork
 ## Version: 2.0.2
-## Notes: Unit scanner with flashy alert
+## Notes: Unit scanner with flashy alert + messages to guild chat
 ## SavedVariables: unitscan_targets
 unitscan.lua
