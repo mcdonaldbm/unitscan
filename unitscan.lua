@@ -44,6 +44,7 @@ function unitscan.target(name)
 	if forbidden then
 		if not found[name] then
 			SendChatMessage('{skull} Detected ' .. name ..' in ' .. GetZoneText() ..' {skull}' , 'GUILD' , nil)
+			SendChatMessage('{skull} Detected ' .. name ..' in ' .. GetZoneText() ..' {skull}' , 'allywbscout' , nil)
 			found[name] = true
 			FlashClientIcon()
 			unitscan.play_sound()
