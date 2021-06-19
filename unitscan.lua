@@ -44,7 +44,6 @@ function unitscan.target(name)
 	if forbidden then
 		if not found[name] then
 			SendChatMessage('{skull} Detected ' .. name ..' in ' .. GetZoneText() ..' {skull}' , 'GUILD' , nil)
-            		C_Timer.After(120, function () SendChatMessage('{skull} Detected ' .. name ..' in ' .. GetZoneText() ..' {skull}' , 'GUILD' , nil) end)
 			found[name] = true
 			FlashClientIcon()
 			unitscan.play_sound()
